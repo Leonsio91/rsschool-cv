@@ -1,6 +1,6 @@
 Levon Voskanian
 
-Date of birth - 28.01.1991
+Date of birth - 28 of january 1991
 
 City - Tbilisi (Georgia)
 
