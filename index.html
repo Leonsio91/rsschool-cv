@@ -1,47 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My CV</title>
-  </head>
-  <body> 
-    <img src="./foto.png" alt="Photo" width="200px" height="171px">
-		<h1>CV-Levon Voskanian</h1>
-		<p><strong>Date of birth</strong> - 28.01.1991</p>
-		<p><strong>City</strong> - Tbilisi (Georgia)</p>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My CV</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="body">
+			<div class="leftSide">
+				<h1>CV-Levon Voskanian</h1>
 
-		<p><strong>Contacts:</strong></p>
-		<ul>
-    	<li> Email - suxoy1991@gmail.com</li>
-	  	<li>Phone - +995 557 92 89 79</li>
-		</ul>
+				<div class="dateOfBirth">
+					<h3>Date of birth:</h3>
+					<p>28.01.1991</p>
+				</div>
 
-		<p><strong>Purpose:</strong> Getting a vacant position of an IT developer.</p>
-		<p>
-	  	<strong>Education:</strong> 2008-2013 "Belarusian State University of Informatics and Radioelectronics", faculty of "Radio Engineering and Electronics", specialty "Radioelectronic Systems", bachelor's degree (full-time department).
-		</p>
+				<div class="cityBlock">
+					<h3>City:</h3>
+					<p>Tbilisi (Georgia) <img src="flag.png" alt="flag"></p>
+				</div>
 
-		<p>
-	  	<strong>Personal qualities:</strong> 
-      <ul>
-		  	<li>Calmness</li>
-		  	<li>Hard work</li>
-		  	<li>High responsibility</li>
-		  	<li>Attentivness</li>
-		  	<li>Stress resistance</li>
-		  	<li>Ability to concentrate</li>
-		  	<li>Discipline</li>
-		  	<li>Analytical mind</li>
-		  	<li>Quickly mastering of new material</li>
-			</ul>
-		</p>
-		<h3><strong>Additional information:</strong></h3> 
-		<ul> 
-	  	<li>Marital status: married.</li>
-	  	<li>Possibility of business trips: no.</li>
-	  	<li>Ready for an irregular schedule.</li>
-		</ul>
-		<p><strong>I have no experience in this area, but I have a great desire to learn.</strong></p>
-	</body>
+				<div class="contacts">
+					<h3>Contacts:</h3>
+					<div class="flex"><i class="fa fas fa-envelope"></i><u>Email</u> - <span>suxoy1991@gmail.com</span></div>
+					<br>
+					<div class="flex"><i class="fa fas fa-phone"></i><u>Phone</u> - <span>+995 557 92 89 79</span></div>
+				</div>
+
+				<div class="purpose">
+					<h3>Purpose:</h3>
+					<p>Getting a vacant position of an IT developer.</p>
+				</div>
+
+				<div class="education">
+					<h3>Education:</h3>
+					<p>
+						2008-2013 "Belarusian State University of Informatics and Radioelectronics", faculty of "Radio Engineering and Electronics", specialty "Radioelectronic Systems", bachelor's degree (full-time department).
+					</p>
+				</div>
+
+				<div class="personalQualities">
+					<h3>Personal qualities:</h3> 
+					<ul>
+						<li>Calmness</li>
+						<li>Hard work</li>
+						<li>High responsibility</li>
+						<li>Attentivness</li>
+						<li>Stress resistance</li>
+						<li>Ability to concentrate</li>
+						<li>Discipline</li>
+						<li>Analytical mind</li>
+						<li>Quickly mastering of new material</li>
+					</ul>
+				</div>
+
+				<div class="additionalInformation">
+					<h3>Additional information:</h3> 
+					<ul> 
+						<li>Marital status: married.</li>
+						<li>Possibility of business trips: no.</li>
+						<li>Ready for an irregular schedule.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="rightSide">	
+				<img class="myPhoto" src="photo.jpg" alt="Photo">
+			</div>	
+		</div>
+		
+		<div class="footer">
+			<div class="noExperiance">
+				<h4>I have no experience in this area, but I have a great desire to learn!</h4>
+			</div>
+		</div>	
+	</div>
+</body>
 </html>

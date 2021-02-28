@@ -1,0 +1,87 @@
+body {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.container {
+	width: 100%;
+	padding: 15px;
+	background-image: url(background.png);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.body {
+	display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container img.myPhoto {
+	width: 200px;
+}
+
+.cityBlock p, .flex {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cityBlock p, .dateOfBirth p, .contacts .flex, .purpose p, .education p {
+	padding-left: 10px;
+}
+
+.personalQualities ul, .additionalInformation ul {
+	padding-left: 10px;
+  margin: 10px;
+}
+
+.cityBlock img {
+	width: 20px;
+	padding-left: 5px;
+}
+
+.contacts .flex i {
+	color: black;
+  padding-right: 5px;
+}
+
+.noExperiance {
+	width: 100%;
+
+}
+
+h1 {
+	margin-top: 0;
+}
+
+h3 {
+	font-style: italic;
+}
+
+h4 {
+	text-align: center;
+	border: solid black;
+	margin: auto;
+}
+
+li {
+	text-decoration: underline;
+	font-style: oblique;	
+}
+
+span, p {
+	font-style: oblique;
+}
+
+.contact {
+	text-decoration: none;
+	font-style: none;
+}
+
+.icon {
+	float: left;
+	padding: 5px;
+}
